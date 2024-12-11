@@ -45,6 +45,9 @@ Project is divided into multiple tasks.
 - We are using FAISS Facebook AI Similarity Search, it is compatible to work with CPU and GPU both.
 - FAISS can be quickly used to compare embeddings and calculate similarity in between them
 
+
+**SNAPSHOT OF PROJECT**
+
 ![image](https://github.com/user-attachments/assets/9c2ddf40-f715-4f60-a3b2-b3bf12b424dd)
 
 **Implementation:**
