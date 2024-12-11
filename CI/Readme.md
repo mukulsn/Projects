@@ -2,7 +2,7 @@
 
 CI - Competitive Intelligence Project
 
-AIM : This project is used by Big commerce and E commerce companies to understand marketplace curation and their pricing strategies.
+AIM : This project is used by Retail and E commerce companies to understand marketplace curation and their pricing strategies.
 
 What Can be Achieved?
 Through Competitive Intelligence we can understand multiple aspects of competitors.
