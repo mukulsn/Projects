@@ -47,8 +47,20 @@ Project is divided into multiple tasks.
 
 ![image](https://github.com/user-attachments/assets/9c2ddf40-f715-4f60-a3b2-b3bf12b424dd)
 
+**Implementation:**
+- Data is gathered and stored through scrapers and stored in s3 bucket for readily accessibility
+- We matched the products based on the Image, so first we had to download loads of images and store them before generating embeddings.
+- Using SigLip, embeddings are generated and stored too.
+- From embeddigns FAISS index is created.
+- then run a query image and search in FAISS index which provides Top K matches, where K can be changed, in our case K = 1
+- while it provides the top match but still the match could be a wrong match so there are some guardrails to get exact match or most similar match
+- Guardrails can be FAISS search distance, the small distance the match has the better are the chances of match to be exact
+- Another Guardrails depends on the dataset and domain, but for fashion generally MRP works as a great guardrail.
+- once we have the mapped dataset we can compare prices. HURREY :tada:
 
-
+----
+Its really interesting project and can be further scaled up, with scale comes the more complex architecture.
+Right now it is based on very simple architecture, and Simplicity is the key :smiley:
 
 
 
