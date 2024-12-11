@@ -61,6 +61,18 @@ Project is divided into multiple tasks.
 - Another Guardrails depends on the dataset and domain, but for fashion generally MRP works as a great guardrail.
 - once we have the mapped dataset we can compare prices. HURREY :tada:
 
+**Scripts:**
+- ajio_file.py : Scraping script
+- vero_moda_file.py : Scraping script
+- Image_Matching.py : Image Downloading, Data Formatting, Embedding Creation and Image Matching.
+- App.py : Code to create frontend
+
+**Tech Stack:**
+- Scraping : Beautifulsoup, requests, selenium
+- ML : Huggingface, PyTorch, Pandas, Numpy
+- App : Streamlit
+- Algorithms : SigLip, FAISS
+
 ----
 Its really interesting project and can be further scaled up, with scale comes the more complex architecture.
 Right now it is based on very simple architecture, and Simplicity is the key :smiley:
