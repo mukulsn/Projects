@@ -5,11 +5,11 @@ Notebooks:
 2. Training retrieval model
 
 Architecture:
-> practicle 4 stage recommendar architecture
-> Two Tower model implimentation and training
-> scalable ML system Design
-> LLM-enhanced recommendation
-> Building an interactive web interface
+> practicle 4 stage recommendar architecture <br>
+> Two Tower model implimentation and training <br>
+> scalable ML system Design <br>
+> LLM-enhanced recommendation <br>
+> Building an interactive web interface <br>
 
 
 Adaptation:
